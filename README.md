@@ -1,2 +1,2 @@
-# Intelig-ncia_artificial
+# Inteligencia_artificial
 Estudo voltado para inteligência artificial
