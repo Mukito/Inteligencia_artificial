@@ -17,3 +17,7 @@ Cria uma pasta para o projeto `projeto`<br>
 `pip install streamlist`<br>
 `pip install matplotlib`<br>
 
+
+#### Comandos 
+`pip freez` - lista as bibliotecas instaladas
+
