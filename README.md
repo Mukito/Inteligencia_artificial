@@ -1,15 +1,17 @@
 # Inteligencia_artificial
 Estudo voltado para inteligência artificial
 
+#### Instalação Poetry <br>
+
+`pip install poetry`<br>
+Cria uma pasta para o projeto `projeto`<br>
+
 
 ### Inicio
 Abre um novo terminal no vscode e cria uma maquina virtual `venv`<br>
 `python -m venv venv` ativa a MV <br>
 `.\venv\Script\activate`<br>
-#### Instalação Poetry <br>
 
-`pip install poetry`<br>
-Cria uma pasta para o projeto `projeto`<br>
 
 #### Instalação das Bibliotecas
 `pip install pandas`<br>
