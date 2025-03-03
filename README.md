@@ -28,6 +28,7 @@ Abre um novo terminal no vscode e cria uma maquina virtual `venv`<br>
 
 
 ##### Salva dentro do projeto um arquivo .csv com os Diametros e os Preços das pizzas Exemplo:
+```
 diametro,preco
 20,50
 22,55
@@ -40,4 +41,6 @@ diametro,preco
 36,90
 38,95
 40,100
+
+```
 
