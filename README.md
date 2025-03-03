@@ -44,3 +44,32 @@ diametro,preco
 
 ```
 
+#### Cria 2 arquivo no principal (app.py e teste.ipynb) no arquivo jupter teste.ipynb
+
+```
+# Carregando o arquivo .csv
+import pandas as pd
+
+df = pd.read_csv("pizzas.csv")
+df
+```
+####  Grafico 
+```
+df.plot(kind="scatter", x="diametro", y="preco")
+```
+##### <Axes: xlabel='diametro', ylabel='preco'>
+```
+from sklear import lenear_model
+model = linear_model.LinearRegression()
+
+# trinamento do modelo
+x = df[["diametro"]]
+y = df[["preco"]]
+
+modelo.fit(x, y)
+```
+Predict<br>
+  * estudar o predict([[diametro]]) 
+```
+print(modelo.predict([[110]])[0][0])
+```
