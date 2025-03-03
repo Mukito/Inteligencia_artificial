@@ -73,3 +73,22 @@ Predict<br>
 ```
 print(modelo.predict([[110]])[0][0])
 ```
+# -------------
+Passa os parametros no teste para o arquivo `app.py` <br>
+```
+import streamlit as st
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+df = pd.read_csv("pizzas.csv")
+
+modelo = LinearRegression()
+x = df[["diametro"]]
+y = df[["preco"]]
+
+st.title("Prevendo o valor da pizza pelo Diametro: ")
+```
+no terminal da o comando: <br>
+`streamlit run app.py` <br>
+
+
