@@ -91,4 +91,5 @@ st.title("Prevendo o valor da pizza pelo Diametro: ")
 no terminal da o comando: <br>
 `streamlit run app.py` <br>
 
+![image](https://github.com/user-attachments/assets/ecef519f-75e2-478c-8471-5cb79878eded)
 
