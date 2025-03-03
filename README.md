@@ -13,13 +13,13 @@ Abre um novo terminal no vscode e cria uma maquina virtual `venv`<br>
 `.\venv\Script\activate`<br>
 
 ##### Dentro da pasta do Projeto Com o poetry ja instalado e com a VM ativada add as bibliotecas
-`poetry add pandas scikit-learn streamlist matplotlib`
+`poetry add pandas scikit-learn streamlit matplotlib`
 
 
 #### Instalação das Bibliotecas
 `pip install pandas`<br>
 `pip install scikit-learn`<br>
-`pip install streamlist`<br>
+`pip install streamlit`<br>
 `pip install matplotlib`<br>
 
 
