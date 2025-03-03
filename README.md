@@ -12,6 +12,9 @@ Abre um novo terminal no vscode e cria uma maquina virtual `venv`<br>
 `python -m venv venv` ativa a MV <br>
 `.\venv\Script\activate`<br>
 
+##### Com o poetry ja instalado add as bibliotecas
+`poetry add pandas scikit-learn streamlist matplotlib`
+
 
 #### Instalação das Bibliotecas
 `pip install pandas`<br>
